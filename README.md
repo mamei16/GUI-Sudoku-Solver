@@ -12,7 +12,7 @@ X X 6 8 X 7 3 X X
 X X X X 4 X X 6 3
 X X 5 X X 8 7 X X
 ```
-Afterwards, select the file using the GUI and click "Solve".
+To run the GUI Solver, run `./SudokuGUI`. Afterwards, select the file using the GUI and click "Solve".
 
 To solve the Sudoku using the command line binary, call `./Sudoku <my_text_file>`. This will print the Sudoku grid before and after it was solved.
 # Example Screenshot
