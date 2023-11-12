@@ -45,7 +45,7 @@ public class SudokoGUI : Gtk.Application{
     }
 
     public void set_frame_margins(Gtk.Frame f, int i, int j) {
-      int16 wide = 10;
+      int wide = 10;
       switch (i) {
         case 2:
         case 5:
