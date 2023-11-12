@@ -102,7 +102,7 @@ public class SudokoGUI : Gtk.Application{
     public void solve_sudoku() {
       int64 msec = GLib.get_monotonic_time();
       bool solved = sudoku.solve(sudoku.playfield, 0, 0);
-      msec = GLib.get_monotonic_time()- msec;
+      msec = GLib.get_monotonic_time() - msec;
       if (solved){
           fill_sudoku_table(solved_sudoku_table, sudoku.playfield.field, true);
           solved_sudoku_table.set_opacity(1.0d);
