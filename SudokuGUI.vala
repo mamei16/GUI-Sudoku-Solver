@@ -2,9 +2,9 @@ public class SudokoGUI : Gtk.Application{
 
     private Gtk.Window main_window;
     private Gtk.Grid unsolved_sudoku_table;
+    private Gtk.Label unsolved_sudoku_label;
     private Gtk.Grid solved_sudoku_table;
     private Gtk.Label solved_sudoku_label;
-    private Gtk.Label unsolved_sudoku_label;
     private Sudoko sudoku;
 
     construct {
